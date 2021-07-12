@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		225CC5A026969CFB0081EF96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225CC59F26969CFB0081EF96 /* AppDelegate.swift */; };
 		225CC5A226969CFB0081EF96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225CC5A126969CFB0081EF96 /* SceneDelegate.swift */; };
-		225CC5A426969CFB0081EF96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225CC5A326969CFB0081EF96 /* ViewController.swift */; };
+		225CC5A426969CFB0081EF96 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225CC5A326969CFB0081EF96 /* detailViewController.swift */; };
 		225CC5A726969CFB0081EF96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 225CC5A526969CFB0081EF96 /* Main.storyboard */; };
 		225CC5AA26969CFB0081EF96 /* Cooking_Timer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 225CC5A826969CFB0081EF96 /* Cooking_Timer.xcdatamodeld */; };
 		225CC5AC26969CFB0081EF96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 225CC5AB26969CFB0081EF96 /* Assets.xcassets */; };
 		225CC5AF26969CFB0081EF96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 225CC5AD26969CFB0081EF96 /* LaunchScreen.storyboard */; };
 		225CC5BA26969CFB0081EF96 /* Cooking_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225CC5B926969CFB0081EF96 /* Cooking_TimerTests.swift */; };
 		225CC5C526969CFC0081EF96 /* Cooking_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225CC5C426969CFC0081EF96 /* Cooking_TimerUITests.swift */; };
+		22E46ACA269BEA9A000B3B3C /* noteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E46AC9269BEA9A000B3B3C /* noteTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 		225CC59C26969CFB0081EF96 /* Cooking-Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cooking-Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		225CC59F26969CFB0081EF96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		225CC5A126969CFB0081EF96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		225CC5A326969CFB0081EF96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		225CC5A326969CFB0081EF96 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 		225CC5A626969CFB0081EF96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		225CC5A926969CFB0081EF96 /* Cooking_Timer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cooking_Timer.xcdatamodel; sourceTree = "<group>"; };
 		225CC5AB26969CFB0081EF96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		225CC5C026969CFC0081EF96 /* Cooking-TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cooking-TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		225CC5C426969CFC0081EF96 /* Cooking_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cooking_TimerUITests.swift; sourceTree = "<group>"; };
 		225CC5C626969CFC0081EF96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22E46AC9269BEA9A000B3B3C /* noteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noteTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +105,8 @@
 			children = (
 				225CC59F26969CFB0081EF96 /* AppDelegate.swift */,
 				225CC5A126969CFB0081EF96 /* SceneDelegate.swift */,
-				225CC5A326969CFB0081EF96 /* ViewController.swift */,
+				225CC5A326969CFB0081EF96 /* detailViewController.swift */,
+				22E46AC9269BEA9A000B3B3C /* noteTableViewController.swift */,
 				225CC5A526969CFB0081EF96 /* Main.storyboard */,
 				225CC5AB26969CFB0081EF96 /* Assets.xcassets */,
 				225CC5AD26969CFB0081EF96 /* LaunchScreen.storyboard */,
@@ -262,7 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				225CC5AA26969CFB0081EF96 /* Cooking_Timer.xcdatamodeld in Sources */,
-				225CC5A426969CFB0081EF96 /* ViewController.swift in Sources */,
+				225CC5A426969CFB0081EF96 /* detailViewController.swift in Sources */,
+				22E46ACA269BEA9A000B3B3C /* noteTableViewController.swift in Sources */,
 				225CC5A026969CFB0081EF96 /* AppDelegate.swift in Sources */,
 				225CC5A226969CFB0081EF96 /* SceneDelegate.swift in Sources */,
 			);
